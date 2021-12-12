@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.controller {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+  padding: 4rem;
+}
+.controller input {
+  padding: 5px;
+}
+.controller form {
+  display: flex;
+  flex-direction: column;
+}
+
+.todos-container {
+  width: 80vw;
+  min-width: 500px;
+  margin: 4rem auto;
+  border: solid rgba(0, 0, 0, 0.082) 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.todo {
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 700px;
+  min-width: 400px;
+  width: 450px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: solid grey 1px;
+  padding: 10px;
+  text-align: center;
+}
+.todo form {
+  margin: 0 auto;
+}
+.todo h2,
+.todo p {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
